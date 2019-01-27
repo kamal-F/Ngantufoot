@@ -1,0 +1,47 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class lantai2 here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class lantai2 extends platform
+{
+     public lantai2()
+    {
+          getImage().scale(getImage().getWidth()*3,getImage().getHeight()+5);
+    }
+    /**
+     * Act - do whatever the lantai2 wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        // Add your action code here.
+    }    
+    
+    public boolean platformAbove()
+    {
+        int spriteHeight = getImage().getHeight();
+        int yDistance = (int)(spriteHeight/-2);
+        Actor ceiling = getOneObjectAtOffset(0, yDistance, Platform.class, lantai1.class);
+        if(ceiling != null)
+        {
+            vSpeed = 1;
+            bopHead(ceiling);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
+    public void bopHead(Actor ceiling)
+    {
+        int ceilingHeight = ceiling.getImage().getHeight();
+        int newY = ceiling.getY() + (ceilingHeight + getImage().getHeight())/2;
+        setLocation(getX(), newY);
+    }
+}

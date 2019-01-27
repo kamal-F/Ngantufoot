@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=grupLvl
+comment0.text=\n\ Write\ a\ description\ of\ class\ grupLvl\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=grupLvl()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ grupLvl.\n\ \n
+comment2.params=
+comment2.target=void\ timercount()
+comment3.params=
+comment3.target=void\ showWaktu()
+comment4.params=isi
+comment4.target=void\ setLabelWaktu(java.lang.String)
+comment5.params=
+comment5.target=void\ prepare()
+comment6.params=
+comment6.target=void\ music()
+comment7.params=
+comment7.target=void\ stopped()
+comment8.params=
+comment8.target=void\ selese()
+numComments=9

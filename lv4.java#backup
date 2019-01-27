@@ -1,0 +1,59 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class lv4 here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class lv4 extends grupLvl
+{
+
+    /**
+     * Constructor for objects of class lv4.
+     * 
+     */
+    public lv4()
+    {
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        player player2 = new player();
+        addObject(player2,51,247);
+        player player = new player();
+        addObject(player,485,72);
+
+        treespawn2 treespawn2 = new treespawn2();
+        addObject(treespawn2,939,53);
+        treespawn treespawn = new treespawn();
+        addObject(treespawn,21,53);
+        
+        bergerak bergerak = new bergerak();
+        addObject(bergerak,302,313);
+        bergerak bergerak2 = new bergerak();
+        addObject(bergerak2,184,570);
+        
+        lantai lantai = new lantai();
+        addObject(lantai,497,151);
+
+        lantai2 lantai2 = new lantai2();
+        addObject(lantai2,219,313);
+
+        flyinglantai flyinglantai = new flyinglantai();
+        addObject(flyinglantai,370,444);
+        lantai3 lantai3 = new lantai3();
+
+        addObject(lantai3,298,574);
+        lantai3.setLocation(155,570);
+
+        doorlv4 doorlv4 = new doorlv4();
+        addObject(doorlv4,60,486);
+        
+    }
+}

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=player
+comment0.text=\n\ Write\ a\ description\ of\ class\ player\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ orang\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment10.params=
+comment10.target=void\ larikanan()
+comment11.params=
+comment11.target=void\ larikiri()
+comment2.params=
+comment2.target=void\ fall()
+comment3.params=
+comment3.target=void\ jalan()
+comment4.params=
+comment4.target=void\ serang()
+comment5.params=
+comment5.target=void\ acttambahan()
+comment6.params=
+comment6.target=boolean\ dilantai()
+comment7.params=
+comment7.target=void\ cekjatuh()
+comment8.params=
+comment8.target=boolean\ jepret()
+comment9.params=
+comment9.target=void\ portal()
+numComments=12
